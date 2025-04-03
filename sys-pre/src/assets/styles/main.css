@@ -1,0 +1,18 @@
+/* main.css */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    /* 其他白天模式变量... */
+}
+
+.dark {
+    --bg-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    /* 其他夜晚模式变量... */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
